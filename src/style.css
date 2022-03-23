@@ -1,3 +1,20 @@
-.body {
-    color: red;
-}
+body{
+    background-image: url("fondo-1.png");
+  }
+h1 {
+     border: 5px double black;
+     border-radius: 10px
+     
+     ;
+  }
+  #top {
+    background-color: rgba(240, 255, 194, 60%);
+    
+  }
+
+  #root {
+    background-color: rgba(191, 255, 240, 60%);
+  }
+  #top2 {
+    background-color: rgba(240, 255, 194, 60%);
+  }
