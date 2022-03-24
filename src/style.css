@@ -9,7 +9,13 @@ h1 {
   }
   #top {
     background-color: rgba(240, 255, 194, 60%);
-    
+
+  }
+  .margen {
+    width: 800px;
+    margin-left: 20%;
+    margin-right: 30%;
+    text-align: center;
   }
 
   #root {

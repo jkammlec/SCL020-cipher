@@ -6,12 +6,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 id="top2">Instrucciones de uso.</h1>
-    <div id="root">
-    <p>Escribe en la casilla inferior, deberás escoger un código secreto (entre el 1 y 26) el cual te permite volver a decodificar tu texto. 
-        Por último pulsa “codificar” para iniciar el simulador. Si quieres volver el texto a la normalidad, ingresa tu código secreto y pulsa “decodificar”.</p>
-    </div>
-    <a href="primerapantalla.html">Inicio</a>
+
+    <div class="margen" id="top"><h1>Nueva entrada</h1></div>
+    <div class="margen" id="root">
+      <h2>Instrucciones</h2>
+      <p>En el recuadro que aparece abajo podrás escribir o pegar el texto que te gustaría
+        cifrar, ademas tienes que escoger un codigo secreto ( entre el número 1 y 27) antes de apretar el botón cifrar, 
+        si no lo haces el texto no se cifrara.
+      </p>
+      <input type="texto" placeholder="Texto a cifrar"/>
+      <input type="texto" placeholder="Codigo secreto"/>
+      <input type="button" value="Cifrar"/>
+      <input type="button" value="Descifrar"/>
+      <a href="primerapantalla.html">Inicio</a>
       <p>(Una breve explicación de como usar el cifrado césar)</p>
     </div>
     <script src="index.js" type="module"></script>
