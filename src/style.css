@@ -26,6 +26,7 @@ p, span {
     margin-right: 30%;
     text-align: center;
     border-radius: 10px;
+    padding: 10px;
   }
 
   #root {
@@ -49,3 +50,4 @@ p, span {
   .margencaja1 {
     margin-right: 50px;
   }
+  
