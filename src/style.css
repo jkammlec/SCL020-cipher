@@ -16,26 +16,26 @@ p, h2, span {
 p, span {
   font-size: 20px;
 }
-  #top {
+ #top {
     background-color: rgba(240, 255, 194, 60%);
-
+    margin-bottom: 50px;
   }
-  .margen {
+.margen {
     width: 800px;
     margin-left: 20%;
     margin-right: 30%;
     text-align: center;
     border-radius: 10px;
-    padding: 10px;
   }
 
-  #root {
+#root {
     background-color: rgba(191, 255, 240, 60%);
+    padding: 5px;
   }
-  #top2 {
+ #top2 {
     background-color: rgba(240, 255, 194, 60%);
   }
-  .imagenfondo{
+.imagenfondo{
     background-image: url('img/librofiltrado.png');
     background-repeat:no-repeat;
     background-size:cover;
