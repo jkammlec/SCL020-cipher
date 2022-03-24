@@ -5,6 +5,7 @@ h1 {
      border: 5px double black;
      border-radius: 10px;
      font-family: 'Just Another Hand', cursive;
+     font-size: 50px;
   }
 h2 {
   font-size: 40px;
