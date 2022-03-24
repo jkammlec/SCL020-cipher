@@ -1,5 +1,5 @@
 body{
-    background-image: url("fondo-1.png");
+    background-image: url("img/fondo-1.png");
   }
 h1 {
      border: 5px double black;
@@ -22,4 +22,10 @@ h1 {
   }
   #top2 {
     background-color: rgba(240, 255, 194, 60%);
+  }
+  .imagenfondo{
+    background-image: url('img/librofiltrado.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
   }
