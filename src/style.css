@@ -4,14 +4,14 @@ body{
 h1 {
      border: 5px double black;
      border-radius: 10px;
-     font-family: 'Just Another Hand', cursive;
+     font-family: 'Raleway', sans-serif;
      font-size: 50px;
   }
 h2 {
   font-size: 40px;
 }
 p, h2, span {
-  font-family: 'Comic Neue', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 p, span {
   font-size: 30px;
