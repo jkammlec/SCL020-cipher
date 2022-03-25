@@ -67,3 +67,41 @@ p, span {
     text-align: start;
     font-family: 'Raleway', sans-serif;
   }
+  .boton{
+    align-items: center;
+    min-width: 700px;
+    display: flex;
+   justify-content: center;
+   margin-right: 10%;
+   margin-top: 30px;
+  }
+  .boton a{
+    text-decoration: none;
+    font-size: 28px;
+    width: 120px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: rgba(191, 255, 240, 80%);
+    color: rgb(8, 8, 8);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 90%);
+  }
+  
+  .boton1{
+    text-decoration: none;
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(255, 187, 187, 80%);
+    color: rgb(8, 8, 8);
+    border-radius: 5px;
+  
+  }
+  .codigo{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 90%);
+  }
