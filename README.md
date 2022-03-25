@@ -14,3 +14,8 @@ Dia 3
 Dia 4
   - creacion de recursos visuales (libro)
   - avances en CSS 
+  - feedback con las compañeras (presentacion de la idea y el diseño basico de la pagina)
+
+Dia 5
+ - avances en el diseño de la pagina (css)
+ - investigacion para las funciones en JS
