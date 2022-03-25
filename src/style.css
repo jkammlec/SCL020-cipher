@@ -86,6 +86,7 @@ p, span {
     color: rgb(8, 8, 8);
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 90%);
+    font-family: 'Raleway', sans-serif;
   }
   
   .boton1{
@@ -97,6 +98,7 @@ p, span {
     background-color: rgb(255, 187, 187, 80%);
     color: rgb(8, 8, 8);
     border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
   
   }
   .codigo{
