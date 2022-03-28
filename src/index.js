@@ -1,9 +1,9 @@
 window.addEventListener("load",inicio,true);
 
 function inicio(){
-    document.getElementById("mensaje").addEventListener("keyup", function(){
-        this.value = this.value.toUpperCase();
-    }, true);
+    //document.getElementById("mensaje").addEventListener("keyup", function(){
+        //this.value = this.value.toUpperCase();
+    //}, true);
     
     document.getElementById("cifrar").addEventListener("click",function(){  
         let texto = document.getElementById("mensaje").value;
@@ -20,6 +20,7 @@ function cifrar(texto, desplazar) {
     if (!texto) 
         return ''; // No se recomienda que haya más de un punto de salida de la función
     const letras = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ';
+    const alterna = 'Aabcdefghijklmnñopqrstuvwxyz';
     //Si aceptamos desplazamientos negativos, necesitamos hacerlo dos veces. Si no, sería:
     //desplazamiento = desplazamiento % 26;
     desplazar = (desplazar % 27 + 27) % 27; 
@@ -30,6 +31,7 @@ function descifrar(texto, desplazar) {
     if (!texto) 
         return ''; // No se recomienda que haya más de un punto de salida de la función
     const letras = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ';
+    const letras2 = 'Aabcdefghijklmnñopqrstuvwxyz';
     //Si aceptamos desplazamientos negativos, necesitamos hacerlo dos veces. Si no, sería:
     //desplazamiento = desplazamiento % 26;
     desplazar = (desplazar % 27 - 27) % 27; 
@@ -39,21 +41,23 @@ function descifrar(texto, desplazar) {
 function cifrar2(texto, desplazar) {
     let resultado='';
     let letras = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ';
+    const letras2 = 'Aabcdefghijklmnñopqrstuvwxyz';
     //Si aceptamos desplazamientos negativos, necesitamos hacerlo dos veces. Si no, sería:
     //desplazamiento = desplazamiento % 26;
     desplazar = (desplazar % 27 + 27) % 27; 
     
     if (texto){
         for (let i=0; i<texto.length; ++i){
-            //Si la letra está en el array de letras (es un símbolo, un espacio...)
-            if (letras.indexOf(texto[i])!=-1)
+           if (letras.indexOf(texto[i])!=-1)//primera condicional mayusculas
             { 
-                //almacenamos en c la posición de la letra más el desplazamiento y le aplicamos el módulo
-                let posicion=((letras.indexOf(texto[i])+desplazar) % 27);
+               let posicion=((letras.indexOf(texto[i])+desplazar) % 27);
                 resultado+=letras[posicion];
+            }else if (letras2.indexOf(texto[i])!=-1) { //segunda condicional minusculas
+                let posicion=((letras2.indexOf(texto[i])+desplazar) % 27);
+                resultado+=letras2[posicion];
             }
-            else
-                resultado+=texto[i]; // Números, espacios, símbolos... 
+            else // si no se cumple ninguna de las condicionales anteriores
+              resultado+=texto[i]; // Números, espacios, símbolos... 
         }
     }
     return resultado;
