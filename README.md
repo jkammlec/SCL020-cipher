@@ -19,3 +19,28 @@ Dia 4
 Dia 5
  - avances en el diseño de la pagina (css)
  - investigacion para las funciones en JS
+
+Dia 6
+  - investigacion funciones JS
+
+
+___________________________________________________
+ *README.md incluye info sobre proceso y decisiones de diseño.
+ *README.md explica claramente quiénes son los usuarios y su relación con el producto.
+ *README.md explica claramente cómo el producto soluciona los problemas/necesidades de los usuarios.
+ *Usa VanillaJS.
+ -Implementa cipher.encode.
+ -Implementa cipher.decode.
+ -Pasa linter con configuración provista.
+ -Pasa pruebas unitarias.
+ -Pruebas unitarias cubren 70% de statements, functions y lines, y un mínimo del 50% de branches.
+ -Interfaz permite elegir el offset o desplazamiento a usar en el cifrado/descifrado.
+ -Interfaz permite escribir un texto para ser cifrado.
+ -Interfaz muestra el resultado del cifrado correctamente.
+ -Interfaz permite escribir un texto para ser descifrado.
+ -Interfaz muestra el resultado del descifrado correctamente. 
+
+Parte Opcional: "Hacker edition"
+ -Cifra/descifra minúsculas
+ -Cifra/descifra otros caracteres (espacios, puntuación, ñ, á, ...)
+ -Permite usar un offset negativo.
