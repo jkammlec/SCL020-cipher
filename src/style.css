@@ -77,7 +77,8 @@ p, span {
   }
   .boton a{
     text-decoration: none;
-    font-size: 28px;
+    font-size: 20px;
+    padding: 5px;
     width: 120px;
     height: 60px;
     line-height: 60px;
@@ -106,4 +107,8 @@ p, span {
     height: 30px;
     border-radius: 5px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 90%);
+  }
+  .imagendiario {
+    width: 500px;
+    margin-left: 50px;
   }
