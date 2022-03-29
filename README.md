@@ -23,6 +23,10 @@ Dia 5
 Dia 6
   - investigacion funciones JS
 
+Dia 7
+  - avances JS
+  - enlazar archivos JS
+
 
 ___________________________________________________
  *README.md incluye info sobre proceso y decisiones de diseño.
