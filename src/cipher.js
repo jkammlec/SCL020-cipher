@@ -1,4 +1,4 @@
-export const cipher = {
+const cipher = {
     
     encode: (texto, desplazar) =>{
         let resultado = '';
@@ -51,3 +51,4 @@ export const cipher = {
     }
    
 };
+export default cipher;
