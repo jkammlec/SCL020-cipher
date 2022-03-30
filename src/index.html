@@ -4,33 +4,23 @@
     <meta charset="utf-8">
     <title>Mi diario</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js" type="module"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-
-    <div class="margen" id="top"><h1>Nueva entrada</h1></div>
-    <div class="margen" id="root">
-      <h2>Instrucciones</h2>
-      <p>En el recuadro que aparece abajo podrás escribir o pegar el texto que te gustaría
-        cifrar, ademas tienes que escoger un código secreto ( entre el número 1 y 27) antes de apretar el botón cifrar, 
-        si no lo haces el texto no se cifrará.
+    <div class="margen" id="top"><h1>Codifica tu diario de vida!</h1></div>
+      <div class="margen" id="root">
+      <img class="imagendiario" src="img/diario1.png" alt="diario">
+      <p>
+        “Mi diario” es un simulador, en donde podrás escribir un texto y este lo
+        codificará para ti.
       </p>
-      <div class="imagenfondo">
-      <textarea class="margencaja1" id="mensaje" placeholder="Ingresa tu texto"></textarea>
-      <textarea  id="mensaje2" placeholder="Texto cifrado/Descifrar"></textarea>
-
-      </div>
-      <input type="button" class="boton1" id="encode" value="Cifrar"/>
-      <input type="button" class="boton1" id="decode" value="Descifrar"/>
-      <input type="number" class="codigo" id="desplazar"  placeholder="codigo secreto"/>
-     
-      <p>(Una breve explicación de cómo usar el cifrado césar)</p>
+      <p> Para comenzar pulsa en “Entrar”.</p>
     </div>
     <div class="boton">
-      <a href="primerapantalla.html">Inicio</a>
+      <p><a href="diario.html">Entrar</a></p>
     </div>
+
   </body>
 </html>
