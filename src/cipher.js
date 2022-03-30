@@ -3,7 +3,7 @@ const cipher = {
     encode: (texto, desplazar) =>{
         let resultado = '';
         const letras = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ';
-        const letras2 = 'Aabcdefghijklmnñopqrstuvwxyz';
+        const letras2 = 'abcdefghijklmnñopqrstuvwxyz';
         //Si aceptamos desplazamientos negativos, necesitamos hacerlo dos veces. Si no, sería:
         //desplazamiento = desplazamiento % 26;
         desplazar = (desplazar % 27 + 27) % 27;
@@ -28,7 +28,7 @@ const cipher = {
     decode: (texto, desplazar) =>{
         let resultado = '';
         const letras = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ';
-        const letras2 = 'Aabcdefghijklmnñopqrstuvwxyz';
+        const letras2 = 'abcdefghijklmnñopqrstuvwxyz';
         //Si aceptamos desplazamientos negativos, necesitamos hacerlo dos veces. Si no, sería:
         //desplazamiento = desplazamiento % 26;
         desplazar = (desplazar % 27 - 27) % 27;
