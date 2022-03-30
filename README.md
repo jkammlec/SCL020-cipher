@@ -27,6 +27,10 @@ Dia 7
   - avances JS
   - enlazar archivos JS
 
+Dia 8
+ - avances en js
+ - realizacion de los primeros test
+
 
 ___________________________________________________
  *README.md incluye info sobre proceso y decisiones de diseño.

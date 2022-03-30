@@ -1,17 +1,19 @@
-import {cifrar, descifrar} from './cipher.js';
+import {cipher} from './cipher.js';
+
+
 window.addEventListener("load",inicio,true);
 function inicio(){
-    document.getElementById("cifrar").addEventListener("click",function(){  
+    document.getElementById("encode").addEventListener("click",function(){  
         let texto = document.getElementById("mensaje").value;
         let desplazar = document.getElementById("desplazar").value;               
-        document.getElementById("mensaje2").value = cifrar(texto, desplazar);
+        document.getElementById("mensaje2").value = cipher.encode(texto, desplazar);
     },true);
-    document.getElementById("descifrar").addEventListener("click",function(){  
+    document.getElementById("decode").addEventListener("click",function(){  
         let texto = document.getElementById("mensaje").value;
         let desplazar = document.getElementById("desplazar").value;                               
-        document.getElementById("mensaje2").value = descifrar(texto, desplazar);
+        document.getElementById("mensaje2").value = cipher.decode(texto, desplazar);
     },true);
 }
 
-
+//console.log(cipher.encode, cipher.decode);
 
