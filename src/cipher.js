@@ -1,6 +1,6 @@
 const cipher = {
     
-    encode: (texto, desplazar) =>{
+    encode: (desplazar, texto) =>{
         let resultado = '';
         const letras = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ';
         const letras2 = 'abcdefghijklmnñopqrstuvwxyz';
@@ -25,7 +25,7 @@ const cipher = {
         return resultado;
     },
 
-    decode: (texto, desplazar) =>{
+    decode: (desplazar, texto) =>{
         let resultado = '';
         const letras = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ';
         const letras2 = 'abcdefghijklmnñopqrstuvwxyz';
