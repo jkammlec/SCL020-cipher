@@ -7,12 +7,12 @@ function inicio(){
     document.getElementById("encode").addEventListener("click",function(){  
         let texto = document.getElementById("mensaje").value;
         let desplazar = document.getElementById("desplazar").value;               
-        document.getElementById("mensaje2").value = cipher.encode(texto, desplazar);
+        document.getElementById("mensaje2").value = cipher.encode( desplazar, texto);
     },);
     document.getElementById("decode").addEventListener("click",function(){  
         let texto = document.getElementById("mensaje").value;
         let desplazar = document.getElementById("desplazar").value;                               
-        document.getElementById("mensaje2").value = cipher.decode(texto, desplazar);
+        document.getElementById("mensaje2").value = cipher.decode(desplazar, texto);
     },);
 }
 
