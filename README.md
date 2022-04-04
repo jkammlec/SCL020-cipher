@@ -31,6 +31,18 @@ Dia 8
  - avances en js
  - realizacion de los primeros test
 
+Dia 9
+- Demos y feedback
+
+Dia 10
+- revisar código para el test
+
+Dia 11
+- lograr que test corra correctamente
+- repaso de funciones
+- afinar detalles en css
+
+
 
 ___________________________________________________
  *README.md incluye info sobre proceso y decisiones de diseño.
