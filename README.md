@@ -42,6 +42,11 @@ Dia 11
 - repaso de funciones
 - afinar detalles en css
 
+Dia 12
+- agregar textos del prototipo a html's
+- repaso de funciones
+- estudio de excepciones
+
 
 
 ___________________________________________________
