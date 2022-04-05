@@ -1,11 +1,15 @@
 body{
     background-image: url("img/fondo-1.png");
+    background-attachment: fixed;
+    align-items: center;
+    
   }
 h1 {
-     border: 5px double black;
-     border-radius: 10px;
-     font-family: 'Raleway', sans-serif;
-     font-size: 50px;
+    align-items: center;
+    border: 5px double black;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
   }
 h2 {
   font-size: 30px;
@@ -17,15 +21,23 @@ p, span {
   font-size: 20px;
 }
  #top {
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgba(240, 255, 194, 60%);
+    box-shadow: 1px 5px 15px  rgba(0, 0, 0, 100%);
     margin-bottom: 50px;
+    
+    
   }
 .margen {
-    width: 800px;
-    margin-left: 20%;
-    margin-right: 30%;
+   margin-left: auto;
+   margin-right: auto;
+    align-items: center;
+    width: 1000px;
     text-align: center;
     border-radius: 10px;
+    align-content: stretch;
+    box-shadow: 1px 5px 15px  rgba(0, 0, 0, 100%);
   }
 
 #root {
@@ -41,6 +53,8 @@ p, span {
     background-size:cover;
     width: 800px;
     height: 600px;
+    margin-left: auto;
+   margin-right: auto;
   }
   #mensaje {
     text-align: start;
@@ -68,19 +82,17 @@ p, span {
     font-family: 'Raleway', sans-serif;
   }
   .boton{
-    align-items: center;
-    min-width: 700px;
-   justify-content: center;
-   margin-left: 50%;
-   margin-top: 30px;
+
+    display: flex;
+    justify-content: space-around;
+    
   }
   .boton a{
     text-decoration: none;
     font-size: 20px;
-    padding: 5px;
-    width: 120px;
-    height: 60px;
-    line-height: 60px;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
     background-color: rgba(191, 255, 240, 80%);
     color: rgb(8, 8, 8);
@@ -110,11 +122,13 @@ p, span {
   .imagendiario {
     width: 500px;
     margin-left: 50px;
+    margin-block-end: 60px;
   }
   .boton{
     align-items: center;
-    min-width: 700px;
    justify-content: center;
-   margin-left: 50%;
    margin-top: 30px;
   }
+a{
+  text-decoration: none;
+}
