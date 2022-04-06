@@ -17,23 +17,22 @@ h2 {
 p, h2, span {
   font-family: 'Raleway', sans-serif;
 }
-p, span {
-  font-size: 20px;
-}
  #top {
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(240, 255, 194, 100%);
     box-shadow: 1px 5px 15px  rgba(0, 0, 0, 100%);
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     
     
   }
 .margen {
+  font-size: 20px;
    margin-left: auto;
    margin-right: auto;
+   margin-bottom: 5px;
     align-items: center;
-    width: 1200px;
+    width: 1000px;
     text-align: center;
     border-radius: 10px;
     /*align-content: stretch;*/
@@ -42,7 +41,10 @@ p, span {
 
 #root {
     background-color: rgba(191, 255, 240, 95%);
-    padding: 15px;
+    padding-right: auto;
+    padding-left: auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
   }
  #top2 {
     background-color: rgba(240, 255, 194, 90%);
@@ -50,17 +52,19 @@ p, span {
 .imagenfondo{
     background-image: url('img/librofiltrado.png');
     background-repeat:no-repeat;
-    background-size:cover;
-    width: 800px;
-    height: 600px;
+    background-size: cover;
+    width: 650px;
+    height: 450px;
     margin-left: auto;
    margin-right: auto;
+   margin-top: none;
+   margin-bottom: 20px;
   }
   #mensaje {
     text-align: start;
     width: 250px;
-    height: 400px;
-    margin-top: 100px;
+    height: 380px;
+    margin-top: 25px;
     background-color: rgb(255, 228, 192, 80%);
     border-color: rgb(255, 187, 187, 5%);
     border-radius: 10px;
@@ -73,8 +77,8 @@ p, span {
   #mensaje2 {
     text-align: start;
     width: 250px;
-    height: 400px;
-    margin-top: 100px;
+    height: 380px;
+    margin-top: 25px;
     background-color: rgb(255, 228, 192, 80%);
     border-color: rgb(255, 187, 187, 5%);
     border-radius: 10px;
@@ -82,19 +86,20 @@ p, span {
     font-family: 'Raleway', sans-serif;
   }
   .boton{
-
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
+  }
+  .boton a:hover{
+    background-color: rgba(191, 255, 240, 95%);
   }
   .boton a{
     text-decoration: none;
     font-size: 20px;
-    width: 120px;
+    width: 150px;
     height: 60px;
     line-height: 60px;
     text-align: center;
-    background-color: rgba(191, 255, 240, 95%);
+    background-color: rgba(240, 255, 194, 100%);;
     color: rgb(8, 8, 8);
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 90%);
@@ -135,4 +140,7 @@ a{
 }
 p{
   padding: 25px;
+}
+.letrachica {
+  font-size: 15px;
 }
