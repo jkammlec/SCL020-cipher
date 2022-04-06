@@ -23,7 +23,7 @@ p, span {
  #top {
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(240, 255, 194, 60%);
+    background-color: rgba(240, 255, 194, 100%);
     box-shadow: 1px 5px 15px  rgba(0, 0, 0, 100%);
     margin-bottom: 50px;
     
@@ -36,16 +36,20 @@ p, span {
     width: 1000px;
     text-align: center;
     border-radius: 10px;
+
+    
+
     /*align-content: stretch;*/
+
     box-shadow: 1px 5px 15px  rgba(0, 0, 0, 100%);
   }
 
 #root {
-    background-color: rgba(191, 255, 240, 0.769);
-    padding: 10px;
+    background-color: rgba(191, 255, 240, 95%);
+    padding: 15px;
   }
  #top2 {
-    background-color: rgba(240, 255, 194, 60%);
+    background-color: rgba(240, 255, 194, 90%);
   }
 .imagenfondo{
     background-image: url('img/librofiltrado.png');
@@ -94,7 +98,7 @@ p, span {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background-color: rgba(191, 255, 240, 80%);
+    background-color: rgba(191, 255, 240, 95%);
     color: rgb(8, 8, 8);
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 90%);
@@ -107,7 +111,7 @@ p, span {
     width: 100px;
     height: 30px;
     text-align: center;
-    background-color: rgb(255, 187, 187, 80%);
+    background-color: rgb(255, 187, 187, 90%);
     color: rgb(8, 8, 8);
     border-radius: 5px;
     font-family: 'Raleway', sans-serif;
@@ -131,4 +135,7 @@ p, span {
   }
 a{
   text-decoration: none;
+}
+p{
+  padding: 25px;
 }
