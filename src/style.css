@@ -1,5 +1,5 @@
 body{
-    background-image: url("img/fondo-1.png");
+    background-image: url("img/letter.png");
     background-attachment: fixed;
     align-items: center;
     
@@ -33,7 +33,7 @@ p, span {
    margin-left: auto;
    margin-right: auto;
     align-items: center;
-    width: 1000px;
+    width: 1200px;
     text-align: center;
     border-radius: 10px;
     /*align-content: stretch;*/
@@ -90,9 +90,9 @@ p, span {
   .boton a{
     text-decoration: none;
     font-size: 20px;
-    width: 80px;
-    height: 50px;
-    line-height: 50px;
+    width: 120px;
+    height: 60px;
+    line-height: 60px;
     text-align: center;
     background-color: rgba(191, 255, 240, 95%);
     color: rgb(8, 8, 8);
