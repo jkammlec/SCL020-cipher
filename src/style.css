@@ -41,8 +41,8 @@ p, span {
   }
 
 #root {
-    background-color: rgba(191, 255, 240, 60%);
-    padding: 5px;
+    background-color: rgba(191, 255, 240, 0.769);
+    padding: 10px;
   }
  #top2 {
     background-color: rgba(240, 255, 194, 60%);
