@@ -36,7 +36,7 @@ p, span {
     width: 1000px;
     text-align: center;
     border-radius: 10px;
-    align-content: stretch;
+    /*align-content: stretch;*/
     box-shadow: 1px 5px 15px  rgba(0, 0, 0, 100%);
   }
 
