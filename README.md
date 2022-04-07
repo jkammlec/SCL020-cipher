@@ -49,7 +49,7 @@ Dia 12
 
 Dia 13
 - pedimos feedback a nuestras compañeras sobre el diseño de nuestra pagina
-- modificasiones en nuestro css
+- modificaciones en nuestro css
 - repasamos nuevamente los test 
 
 
